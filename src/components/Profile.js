@@ -1,3 +1,5 @@
+import React from 'react'
+
 const Profile = ({ username, name, email, phone, gender, birthday }) => {
   return (
     <div className="Detail">

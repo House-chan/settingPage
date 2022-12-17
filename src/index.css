@@ -138,8 +138,7 @@ body{
 .Detail .header button{
   float:right;
   padding:15px;
-  justify-content:center;
-  align-items:center;
+  cursor:pointer;
   /* height:200px */
 }
 
@@ -155,10 +154,35 @@ body{
   padding-bottom:0; */
 }
 .addressList p{
-  margin:5;
+  margin:5px;
   margin-left:10px;
 }
 
-.addressList .button{
-  
+.addressList button{
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.addressList .button .edit{
+  float:right;
+  background:none;
+  border:none;
+  cursor: pointer;
+  font-size: 18px;
+  color:green;
+}
+
+.addressList .button .default{
+  border:2px solid;
+  color:black;
+  border-color: darkgreen;
+  background-color:transparent;
+  float:left;
+}
+
+.Detail .header .popup{
+  position:relative;
+  top:50%;
+  left:50%;
+  font-size:20px;
 }

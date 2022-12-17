@@ -1,4 +1,5 @@
 import avatar from "../avatar.png"
+import React from 'react'
 
 const Topic = ({ name, state }) => {
   return (
@@ -19,7 +20,7 @@ const Topic = ({ name, state }) => {
                     <button onClick={() => state("Address")}>Address</button>
                </div>
                <div>
-                    <button onClick={() => state("Bank")}>Bank & Cards</button>
+                    <button onClick={() => state("Payment")}>Bank & Cards</button>
                </div>
                <div>
                     <button onClick={() => state("Privacy")}>Privacy and Safty</button>

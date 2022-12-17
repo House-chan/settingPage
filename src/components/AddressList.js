@@ -9,8 +9,8 @@ function AddressList({address}) {
      </div>
       <p>{address.address}</p>
       <div className="button">
-          <button>Edit</button>
-          <button>Default</button>
+          <button className="edit">Edit</button>
+          <button className="default">Default</button>
       </div>
     </div>
   )
