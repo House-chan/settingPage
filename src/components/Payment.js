@@ -3,22 +3,23 @@ import Card from './Card'
 import Bank from './Bank'
 
 const card = [
-  { 
+  {
     type: 'Master Card',
     num: "1234 5678 9101 5555",
-    img:"master"
+    img:"Mastercard"
   },
-  { 
+  {
     type: 'Visa',
     num: "1234 5678 9101 5555",
-    img:"visa"
+    img:"Visa"
   }
 ]
 const bank = [
   {
     bank:"KBank",
     num: "1234 5678 9101 5555",
-    name: "Noname"
+    name: "Noname",
+    img:"kbank"
   }
 ]
 
@@ -35,7 +36,8 @@ const Payment = () => {
       </div>
       {card.map((card) => (
         <Card card={card}/>
-      ))}
+        ))}
+      <hr></hr>
       <div className="header">
         <p>My Credit/Debit Cards</p>
         <button>+ Add New Card</button>
