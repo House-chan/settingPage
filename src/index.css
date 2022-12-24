@@ -9,7 +9,8 @@ body{
 }
 
 button{
-  font-family: "poppins"
+  font-family: "poppins";
+  cursor:pointer;
 }
 
 .container {
@@ -37,9 +38,23 @@ button{
   margin-left: 5%;
 }
 
-.selection .list div{
+.selection .list .btn-default{
   margin:20px;
   margin-bottom: 25px;
+  padding-left:30px;
+}
+
+.selection .btn{
+  display:inline-flex;
+  margin-top:20px;
+  margin-bottom:25px;
+  padding-left:10px;
+}
+
+.selection .btn img{
+  margin-top:5px;
+  margin-right:10px;
+  /* margin-bottom:0; */
 }
 
 .selection .list .account img{
@@ -74,22 +89,20 @@ button{
   width:60%;
   float:left;
   min-height:800px;
-  max-height:100%;
+  max-height:900px;
   /* align-items:center; */
   background-color:white;
   border-radius:2%;
+  overflow-y: auto;
 }
 
 .Detail .block {
-  width:100%;
-  float:left;
+  /* width:80%; */
+  /* float:left; */
   margin-left:50px;
   /* float:right; */
+  overflow:auto;
 }
-
-/* .Detail .header{
-  position:relative;
-} */
 
 .Detail .header p{
   color:darkgreen;
@@ -102,6 +115,8 @@ button{
 .Detail hr{
   margin-right:50px;
   margin-left:50px;
+  margin-top:5px;
+  margin-bottom: 5px;
 }
 
 .Detail .block p{
@@ -115,7 +130,8 @@ button{
 
 .Detail .block .input{
   float:left;
-  text-align:center;
+  /* text-align:center; */
+  /* width:50%; */
   padding:20px 0;
   /* width:50%; */
 
@@ -248,11 +264,6 @@ button{
   display: flex;
 }
 
-.purchase .product .item{
-  width:80%;
-  float:left;
-}
-
 .purchase .product .price{
   width:30%;
   /* height:max-content; */
@@ -289,6 +300,7 @@ button{
 .purchase .product .item{
   display: flex;
   float:left;
+  width:80%;
 }
 
 .purchase .product .item img{
@@ -305,4 +317,28 @@ button{
   margin-bottom:5px;
 }
 
+.purchase .review{
+  display:inline-block;
+  margin-top:0px;
+  /* float:right; */
+  width:100%;
+}
 
+.purchase .review button{
+  margin-top:0px;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size:20px;
+}
+
+.purchase .review .green{
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+.purchase .review .white{
+  background-color: white;
+  color:darkgreen;
+  border-color: darkgreen;
+}
