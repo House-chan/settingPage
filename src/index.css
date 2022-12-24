@@ -171,8 +171,6 @@ button{
   margin-left:10px;
   margin-top:0;
   margin-bottom:0;
-  /* padding-top:0;
-  padding-bottom:0; */
 }
 .addressList p{
   margin:5px;
@@ -341,4 +339,9 @@ button{
   background-color: white;
   color:darkgreen;
   border-color: darkgreen;
+}
+
+.popup-detail #location{
+  height:100px;
+  text-align: center;
 }

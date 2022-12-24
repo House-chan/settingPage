@@ -1,6 +1,6 @@
 import React from 'react'
 import PromotionList from './PromotionList'
-import PromotionPopup from '../Popup/PromotionPopup'
+import PromotionPopup from './PromotionPopup'
 import {useState} from "react"
 
 const Promotion = () => {
@@ -34,7 +34,6 @@ const Promotion = () => {
 
   return (
      <div className="Detail">
-          <PromotionPopup trigger={popup} setTrigger={setpopup} promotion={promotion[1]}/>
           <div className="header">
                <p>Promotion</p>
                <button className="addPromotion" onClick={() => setpopup(true)}>+ Add Promotion</button>
@@ -42,9 +41,10 @@ const Promotion = () => {
           <hr></hr>
           <div className="promotion">
                {promotion.map((promotion) => (
-               <PromotionList promotion={promotion}/>
-               ))}
+                    <PromotionList promotion={promotion}/>
+                    ))}
           </div>
+          <PromotionPopup trigger={popup} setTriggers={setpopup} promotion={promotion[1]}></PromotionPopup>
      </div>
   )
 }
