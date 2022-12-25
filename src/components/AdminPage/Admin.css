@@ -28,7 +28,7 @@ button{
 .selection{
   width:30%;
   float: left;
-
+  padding:30px;
 }
 
 .selection .list{
@@ -70,6 +70,13 @@ button{
 
 .selection .list .account p{
   font-size:18px;
+  margin-top:18px;
+  margin-bottom: 18px;
+}
+
+.selection .list .account h2{
+  margin-top:24px;
+  margin-bottom: 24px;
 }
 
 .selection button{
@@ -92,7 +99,8 @@ button{
   max-height:900px;
   /* align-items:center; */
   background-color:white;
-  border-radius:2%;
+  border-radius:25px;
+  padding:15px;
   overflow-y: auto;
 }
 
@@ -131,7 +139,7 @@ button{
 
 .Detail .addPromotion{
   float: right;
-  border-radius: 10%;
+  border-radius: 10px;
   background-color:darkgreen;
   color:white;
   padding: 6px 18px;
@@ -143,7 +151,7 @@ button{
   float:right;
   padding:15px;
   cursor:pointer;
-  margin:25px;
+  margin:20px;
   border:0;
   /* height:200px */
 }
@@ -181,17 +189,18 @@ button{
 .promotionList .promotionName h5{
   margin-bottom:0px;
   margin-left:15px;
+  margin-top:32px;
 }
 
 .promotionList .promotionRequirement p{
   margin:0;
+  color:darkgreen;
 }
 
 .promotionList .promotionRequirement{
   margin-left:15px;
   display:inline-flex;
   border:solid;
-  border-radius: 1px;
   border-color:green;
 }
 
@@ -219,6 +228,8 @@ button{
   text-align: center;
   color:white;
   font-weight: bold;
+  margin-top:20px;
+  margin-bottom: 20px;
 }
 
 .promotionList .promotionDetail{
@@ -248,7 +259,7 @@ button{
   min-height: 300px;
   max-height:100%;
   background-color: #fff;
-  border-radius: 3%;
+  border-radius: 25px;
 }
 
 .popup .popup-inner .popup-title{
@@ -275,7 +286,7 @@ button{
 .popup-inner input{
   width:80%;
   padding:10px;
-  border-radius: 5%;
+  border-radius: 8px;
   border-color: gray;
 }
 

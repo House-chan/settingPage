@@ -28,7 +28,7 @@ button{
 .selection{
   width:30%;
   float: left;
-
+  padding:30px;
 }
 
 .selection .list{
@@ -70,6 +70,13 @@ button{
 
 .selection .list .account p{
   font-size:18px;
+  margin-top:18px;
+  margin-bottom: 18px;
+}
+
+.selection .list .account h2{
+  margin-top:24px;
+  margin-bottom: 24px;
 }
 
 .selection button{
@@ -92,7 +99,8 @@ button{
   max-height:900px;
   /* align-items:center; */
   background-color:white;
-  border-radius:2%;
+  border-radius:25px;
+  padding:15px;
   overflow-y: auto;
 }
 
@@ -110,6 +118,8 @@ button{
   font-weight: bold;
   margin-left:50px;
   display:inline-block;
+  margin-top:24px;
+  margin-bottom: 24px;
 }
 
 .Detail hr{
@@ -123,6 +133,8 @@ button{
   /* display:inline; */
   width:50%;
   float:left;
+  margin-top:18px;
+  margin-bottom: 18px;
   /* display: flex; */
   /* width:60%; */
   /* float:right; */
@@ -158,7 +170,7 @@ button{
   float:right;
   padding:15px;
   cursor:pointer;
-  margin:25px;
+  margin:20px;
   border:0;
   /* height:200px */
 }
@@ -208,13 +220,19 @@ button{
 
 .paymentDetail{
   overflow:auto;
+  display:inline-block;
+  width:100%;
 }
 
 .paymentDetail .detail{
   margin-left:50px;
   float:left;
-  width:70%;
   display:flex;
+}
+
+.paymentDetail .button{
+  /* width:50%; */
+  float:right;
 }
 
 .paymentDetail .detail img{
@@ -257,6 +275,11 @@ button{
   margin-left:50px;
 }
 
+.purchase .id p{
+  margin-top:18px;
+  margin-bottom: 18px;
+}
+
 .purchase .product{
   margin-left:50px;
   display: flex;
@@ -288,6 +311,11 @@ button{
 
 .purchase .summary .status{
   float:left;
+}
+
+.purchase .summary .status p{
+  margin-top:18px;
+  margin-bottom: 18px;
 }
 
 .purchase .summary .total{
